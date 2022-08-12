@@ -17,10 +17,10 @@ class Pencarian extends CI_Controller
 		} else {
 			echo json_encode($this->db->get("luar_negeri")->result());
 		}
-		if ($filter == "JNE") {
-			echo json_encode($this->db->get("jne")->result());
-		} else {
-			echo json_encode($this->db->get("tiki")->result());
-		}
+// 		if ($filter == "JNE") {
+// 			echo json_encode($this->db->get("jne")->result());
+// 		} else {
+// 			echo json_encode($this->db->get("tiki")->result());
+// 		}
 	}
 }
